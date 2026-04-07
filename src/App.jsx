@@ -3,29 +3,29 @@ import Formulario from "./components/Formulario";
 import ListaCitas from "./components/ListaCitas";
 import "./App.css";
 
-function App(){
+function App() {
 
-return(
+  return (
 
-<div>
+    <div>
 
-<Header/>
+      <Header />
 
-<div className="container">
+      <div className="container">
 
-<div className="row">
+        <div className="row">
 
-<Formulario/>
+          <Formulario />
 
-<ListaCitas/>
+          <ListaCitas />
 
-</div>
+        </div>
 
-</div>
+      </div>
 
-</div>
+    </div>
 
-)
+  )
 
 }
 

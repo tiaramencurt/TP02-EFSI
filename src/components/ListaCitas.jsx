@@ -1,46 +1,46 @@
 import Cita from "./Cita";
-import {useState} from "react";
+import { useState } from "react";
 
-function ListaCitas(){
+function ListaCitas() {
 
-const [citas] = useState([
+    const [citas] = useState([
 
-{
-mascota:"Nina",
-dueno:"Martin",
-fecha:"2021-08-05",
-hora:"08:20",
-sintomas:"Le duele la pierna"
-},
+        {
+            mascota: "Nina",
+            dueno: "Martin",
+            fecha: "2021-08-05",
+            hora: "08:20",
+            sintomas: "Le duele la pierna"
+        },
 
-{
-mascota:"Sifon",
-dueno:"Flecha",
-fecha:"2023-08-05",
-hora:"09:24",
-sintomas:"Duerme mucho"
-}
+        {
+            mascota: "Sifon",
+            dueno: "Flecha",
+            fecha: "2023-08-05",
+            hora: "09:24",
+            sintomas: "Duerme mucho"
+        }
 
-])
+    ])
 
-return(
+    return (
 
-<div className="one-half column">
+        <div className="one-half column">
 
-<h2>Administra tus citas</h2>
+            <h2>Administra tus citas</h2>
 
-{citas.map((cita,index)=>(
+            {citas.map((cita, index) => (
 
-<Cita
-key={index}
-cita={cita}
-/>
+                <Cita
+                    key={index}
+                    cita={cita}
+                />
 
-))}
+            ))}
 
-</div>
+        </div>
 
-)
+    )
 
 }
 
