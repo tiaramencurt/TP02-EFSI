@@ -22,7 +22,7 @@ Hora:
 Sintomas:
 <span> {cita.sintomas}</span>
 </p>
-<Boton texto="Eliminar ×" clase="eliminar"/>
+<Boton texto="Eliminar x" tipo="eliminar"/>
 </div>
 )
 }

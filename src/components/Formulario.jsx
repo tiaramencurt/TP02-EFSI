@@ -14,13 +14,9 @@ return(
 <CampoFecha/>
 <CampoHora/>
 <CampoTextarea/>
-<Boton texto="Agregar Cita"/>
+<Boton texto="Agregar Cita" tipo="primary"/>
 </form>
-
 </div>
-
 )
-
 }
-
 export default Formulario;
