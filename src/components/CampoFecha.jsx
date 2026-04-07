@@ -1,5 +1,4 @@
 function CampoFecha(){
-
 return(
 <>
 <label>Fecha</label>

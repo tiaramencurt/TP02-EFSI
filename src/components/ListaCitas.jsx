@@ -2,9 +2,7 @@ import Cita from "./Cita";
 import { useState } from "react";
 
 function ListaCitas() {
-
     const [citas] = useState([
-
         {
             mascota: "Nina",
             dueno: "Martin",
@@ -12,7 +10,6 @@ function ListaCitas() {
             hora: "08:20",
             sintomas: "Le duele la pierna"
         },
-
         {
             mascota: "Sifon",
             dueno: "Flecha",
@@ -20,28 +17,17 @@ function ListaCitas() {
             hora: "09:24",
             sintomas: "Duerme mucho"
         }
-
     ])
-
     return (
-
         <div className="one-half column">
-
             <h2>Administra tus citas</h2>
-
             {citas.map((cita, index) => (
-
                 <Cita
                     key={index}
                     cita={cita}
                 />
-
             ))}
-
         </div>
-
     )
-
 }
-
 export default ListaCitas;

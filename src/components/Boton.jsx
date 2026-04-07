@@ -1,6 +1,6 @@
-function Boton({texto}){
+function Boton({texto, clase=""}){
 return(
-<button className="u-full-width button-primary">
+<button className={`u-full-width button-primary ${clase}`}>
 {texto}
 </button>
 )
