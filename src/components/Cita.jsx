@@ -1,26 +1,41 @@
 import Boton from "./Boton";
 
-function Cita(){
+function Cita({cita}){
 
-    return(
+return(
 
-        <div className="cita">
+<div className="cita">
 
-            <p>Mascota: <span>Nina</span></p>
+<p>
+Mascota:
+<span> {cita.mascota}</span>
+</p>
 
-            <p>Dueño: <span>Martin</span></p>
+<p>
+Dueño:
+<span> {cita.dueno}</span>
+</p>
 
-            <p>Fecha: <span>2021-08-05</span></p>
+<p>
+Fecha:
+<span> {cita.fecha}</span>
+</p>
 
-            <p>Hora: <span>08:20</span></p>
+<p>
+Hora:
+<span> {cita.hora}</span>
+</p>
 
-            <p>Sintomas: <span>Le duele la pierna</span></p>
+<p>
+Sintomas:
+<span> {cita.sintomas}</span>
+</p>
 
-            <Boton/>
+<Boton texto="Eliminar"/>
 
-        </div>
+</div>
 
-    )
+)
 
 }
 

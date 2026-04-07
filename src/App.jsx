@@ -3,24 +3,30 @@ import Formulario from "./components/Formulario";
 import ListaCitas from "./components/ListaCitas";
 import "./App.css";
 
-function App() {
+function App(){
 
-  return (
-    <div>
-      <Header/>
+return(
 
-      <div className="container">
-        <div className="row">
+<div>
 
-          <Formulario/>
+<Header/>
 
-          <ListaCitas/>
+<div className="container">
 
-        </div>
-      </div>
+<div className="row">
 
-    </div>
-  );
+<Formulario/>
+
+<ListaCitas/>
+
+</div>
+
+</div>
+
+</div>
+
+)
+
 }
 
 export default App;

@@ -1,36 +1,42 @@
-import Input from "./Input";
+import CampoTexto from "./CampoTexto";
+import CampoFecha from "./CampoFecha";
+import CampoHora from "./CampoHora";
+import CampoTextarea from "./CampoTextarea";
+import Boton from "./Boton";
 
 function Formulario(){
 
-    return(
+return(
 
-        <div className="one-half column">
+<div className="one-half column">
 
-            <h2>Crear mi Cita</h2>
+<h2>Crear mi Cita</h2>
 
-            <form>
+<form>
 
-                <Input label="Nombre Mascota"/>
-                <Input label="Nombre Dueño"/>
+<CampoTexto
+label="Nombre Mascota"
+placeholder="Nombre Mascota"
+/>
 
-                <label>Fecha</label>
-                <input type="date" className="u-full-width"/>
+<CampoTexto
+label="Nombre Dueño"
+placeholder="Nombre dueño"
+/>
 
-                <label>Hora</label>
-                <input type="time" className="u-full-width"/>
+<CampoFecha/>
 
-                <label>Sintomas</label>
-                <textarea className="u-full-width"></textarea>
+<CampoHora/>
 
-                <button className="u-full-width button-primary">
-                    Agregar Cita
-                </button>
+<CampoTextarea/>
 
-            </form>
+<Boton texto="Agregar Cita"/>
 
-        </div>
+</form>
 
-    )
+</div>
+
+)
 
 }
 

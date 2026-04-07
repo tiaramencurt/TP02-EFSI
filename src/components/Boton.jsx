@@ -1,8 +1,15 @@
-function Boton(){
-    return(
-        <button className="button eliminar u-full-width">
-            Eliminar
-        </button>
-    )
+function Boton({texto}){
+
+return(
+
+<button className="u-full-width button-primary">
+
+{texto}
+
+</button>
+
+)
+
 }
+
 export default Boton;
