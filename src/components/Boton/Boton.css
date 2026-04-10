@@ -1,24 +1,26 @@
 .button {
-  color: white;
+  color: #FFF;
   border: none;
   margin-top: 2rem;
   transition: 0.3s;
 }
 
 .button.primary {
-  background-color: rgb(51,148,187);
+  background-color: #33C3F0;
 }
 
 .button.primary:hover {
-  background-color: rgb(102,163,187);
+  background-color: #1EAEDB;
+  color: #FFF;
 }
 
 .button.eliminar {
-  background-color: rgb(255,255,255);
-  color: black;
-  border: 1px solid rgb(209,209,209);
+  background-color: transparent;
+  color: #555;
+  border: 1px solid #bbb;
 }
 
 .button.eliminar:hover {
-  border: 1px solid black;
+    color:#333;
+    border-color: #888;
 }
