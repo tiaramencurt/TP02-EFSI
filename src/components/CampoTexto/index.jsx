@@ -1,3 +1,5 @@
+import "./CampoTexto.css";
+
 function CampoTexto({label,placeholder}){
 return(
 <>

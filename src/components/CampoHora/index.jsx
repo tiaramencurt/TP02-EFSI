@@ -1,3 +1,5 @@
+import "./CampoHora.css";
+
 function CampoHora(){
 return(
 <>

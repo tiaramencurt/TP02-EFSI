@@ -1,3 +1,5 @@
+import "./CampoTextarea.css";
+
 function CampoTextarea(){
 return(
 <>

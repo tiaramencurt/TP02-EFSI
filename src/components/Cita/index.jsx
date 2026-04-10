@@ -1,4 +1,5 @@
-import Boton from "./Boton";
+import "./Cita.css";
+import Boton from "../Boton";
 function Cita({cita}){
 return(
 <div className="cita">

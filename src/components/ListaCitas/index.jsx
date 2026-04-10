@@ -1,4 +1,5 @@
-import Cita from "./Cita";
+import "./ListaCitas.css";
+import Cita from "../Cita";
 import { useState } from "react";
 
 function ListaCitas() {

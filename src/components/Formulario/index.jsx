@@ -1,8 +1,9 @@
-import CampoTexto from "./CampoTexto";
-import CampoFecha from "./CampoFecha";
-import CampoHora from "./CampoHora";
-import CampoTextarea from "./CampoTextarea";
-import Boton from "./Boton";
+import "./Formulario.css";
+import CampoTexto from "../CampoTexto";
+import CampoFecha from "../CampoFecha";
+import CampoHora from "../CampoHora";
+import CampoTextarea from "../CampoTextarea";
+import Boton from "../Boton";
 
 function Formulario(){
 return(
